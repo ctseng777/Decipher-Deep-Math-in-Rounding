@@ -113,37 +113,37 @@ Key parameters in each script:
 
 ### Core Methodology
 
-### Approximation in Empirical Science
+#### Approximation in Empirical Science
 
-- **Generalizing Empirical Adequacy I: Multiplicity and Approximation**: [Synthese (2014)](https://link.springer.com/article/10.1007/s11229-014-0440-3) – Sebastian Lutz – Proposes a broadened concept of empirical adequacy within constructive empiricism, emphasizing multiplicity and approximation in theoretical–observational relations.
+- **Generalizing Empirical Adequacy I: Multiplicity and Approximation** – Sebastian Lutz – Proposes a broadened concept of empirical adequacy within constructive empiricism, emphasizing multiplicity and approximation in theoretical–observational relations. [Synthese (2014)](https://link.springer.com/article/10.1007/s11229-014-0440-3)
 
-- **Scientific Hypothesis Generation by Large Language Models: Laboratory Validation in Breast Cancer Treatment**: [Journal of the Royal Society Interface (2025)](https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0674) – A. Abdel-Rehim, H. Zenil, O. Orhobor, M. Fisher, R. J. Collins, E. Bourne, G. W. Fearnley, E. Tate, H. X. Smith, L. N. Soldatova, and R. D. King – Demonstrates LLMs generating novel, experimentally validated drug combination hypotheses for breast cancer treatment.
+- **Scientific Hypothesis Generation by Large Language Models: Laboratory Validation in Breast Cancer Treatment** – A. Abdel-Rehim, H. Zenil, O. Orhobor, M. Fisher, R. J. Collins, E. Bourne, G. W. Fearnley, E. Tate, H. X. Smith, L. N. Soldatova, and R. D. King – Demonstrates LLMs generating novel, experimentally validated drug combination hypotheses for breast cancer treatment. [Journal of the Royal Society Interface (2025)](https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0674)
 
-### Psychology Study on Approximation
+#### Psychology Study on Approximation
 
-- **Children’s Number Line Estimation Strategies**: [Frontiers in Psychology (2024)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1421821/full) – M. Li, J. Yang, and X. Ye – Explores how children use different number line strategies in bounded and unbounded tasks, showing developmental shifts in reference-point use.
+- **Children's Number Line Estimation Strategies** – M. Li, J. Yang, and X. Ye – Explores how children use different number line strategies in bounded and unbounded tasks, showing developmental shifts in reference-point use. [Frontiers in Psychology (2024)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1421821/full)
 
 ### Linear Probe
 
-- **Understanding Intermediate Layers Using Linear Classifier Probes**: [arXiv (2016)](https://arxiv.org/abs/1610.01644) – G. Alain & Y. Bengio – Introduces 'probe' classifiers to examine feature separability and diagnostic behavior across neural network layers.
+- **Understanding Intermediate Layers Using Linear Classifier Probes** – G. Alain & Y. Bengio – Introduces 'probe' classifiers to examine feature separability and diagnostic behavior across neural network layers. [arXiv (2016)](https://arxiv.org/abs/1610.01644)
 
 ### Models
 
-- **Qwen3 Technical Report**: [arXiv (2025)](https://arxiv.org/abs/2505.09388) – Qwen Team – Presents the Qwen3 family of LLMs featuring dense and Mixture-of-Expert (MoE) models with integrated “thinking” and “non-thinking” modes.
+- **Qwen3 Technical Report** – Qwen Team – Presents the Qwen3 family of LLMs featuring dense and Mixture-of-Expert (MoE) models with integrated "thinking" and "non-thinking" modes. [arXiv (2025)](https://arxiv.org/abs/2505.09388)
 
-- **Dream 7B: Diffusion Large Language Models**: [arXiv (2025)](https://arxiv.org/abs/2508.15487) – J. Ye, Z. Xie, L. Zheng, J. Gao, Z. Wu, X. Jiang, Z. Li, and L. Kong – Introduces Dream 7B, a diffusion-based LLM with iterative denoising generation, excelling in math, coding, and planning tasks.
+- **Dream 7B: Diffusion Large Language Models** – J. Ye, Z. Xie, L. Zheng, J. Gao, Z. Wu, X. Jiang, Z. Li, and L. Kong – Introduces Dream 7B, a diffusion-based LLM with iterative denoising generation, excelling in math, coding, and planning tasks. [arXiv (2025)](https://arxiv.org/abs/2508.15487)
 
-- **Mamba: Linear-Time Sequence Modeling with Selective State Spaces**: [arXiv (2023)](https://arxiv.org/abs/2312.00752) – A. Gu & T. Dao – Proposes the Mamba architecture, a state-space model that scales linearly and outperforms transformers in long-sequence modeling.
+- **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** – A. Gu & T. Dao – Proposes the Mamba architecture, a state-space model that scales linearly and outperforms transformers in long-sequence modeling. [arXiv (2023)](https://arxiv.org/abs/2312.00752)
 
 ### Model's Numerical Encoding Behaviors
 
-- **Language Models Encode Numbers Using Digit Representations in Base 10**: [ACL Anthology (2025)](https://aclanthology.org/2025.naacl-short.33/) – A. A. Levy & M. Geva – Reveals that LLMs encode numbers via digit-wise base-10 representations, explaining systematic numeric errors.
+- **Language Models Encode Numbers Using Digit Representations in Base 10** – A. A. Levy & M. Geva – Reveals that LLMs encode numbers via digit-wise base-10 representations, explaining systematic numeric errors. [ACL Anthology (2025)](https://aclanthology.org/2025.naacl-short.33/)
 
-- **Language Model Probabilities are Not Calibrated in Numeric Contexts**: [ACL Anthology (2025)](https://aclanthology.org/2025.acl-long.1417/) – C. Lovering, M. Krumdick, V. D. Lai, V. Reddy, S. Ebner, N. Kumar, R. Koncel-Kedziorski, and C. Tanner – Examines how LMs fail to calibrate probabilities in numeric contexts, even in simple reasoning tasks.
+- **Language Model Probabilities are Not Calibrated in Numeric Contexts** – C. Lovering, M. Krumdick, V. D. Lai, V. Reddy, S. Ebner, N. Kumar, R. Koncel-Kedziorski, and C. Tanner – Examines how LMs fail to calibrate probabilities in numeric contexts, even in simple reasoning tasks. [ACL Anthology (2025)](https://aclanthology.org/2025.acl-long.1417/)
 
 ### Early Stopping Opportunities
 
-- **BranchyNet: Fast Inference via Early Exiting from Deep Neural Networks**: [arXiv (2017)](https://arxiv.org/abs/1709.01686) – S. Teerapittayanon, B. McDanel, and H. T. Kung – Proposes BranchyNet, enabling faster inference by allowing early exits from intermediate layers of neural networks.
+- **BranchyNet: Fast Inference via Early Exiting from Deep Neural Networks** – S. Teerapittayanon, B. McDanel, and H. T. Kung – Proposes BranchyNet, enabling faster inference by allowing early exits from intermediate layers of neural networks. [arXiv (2017)](https://arxiv.org/abs/1709.01686)
 
 
 ## Contact
