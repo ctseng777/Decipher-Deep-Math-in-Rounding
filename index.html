@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Investigation of how language models understand and process numerical rounding tasks through linear probing techniques">
+  <meta property="og:title" content="Decipher Deep Math: Numeric Rounding Behaviors in LLMs"/>
+  <meta property="og:description" content="Linear probing analysis of numerical understanding across Transformer and State Space Models"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Decipher Deep Math: Numeric Rounding Behaviors in LLMs">
+  <meta name="twitter:description" content="Linear probing analysis of numerical understanding across Transformer and State Space Models">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="linear probing, language models, numerical understanding, rounding, transformers, state space models, mamba, qwen">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Decipher Deep Math: Numeric Rounding Behaviors in LLMs</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Decipher Deep Math: Numeric Rounding Behaviors in LLMs</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="#" target="_blank">Research Team</a></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">DeepMath 2025</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="static/pdfs/DeepMath.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/ctseng777/Decipher-Deep-Math-in-Rounding" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This research investigates how language models understand and process numerical rounding tasks through linear probing techniques. We analyze the internal representations of various model architectures to understand how they encode proximity to multiples of 5 and 10. Our study implements streaming linear probes that process activations in batches rather than storing entire activation matrices, enabling memory-efficient analysis across multiple architectures including Transformer-based models (Qwen, Dream) and State Space Models (Mamba). Through layer-wise analysis, we identify which layers in different architectures best encode numerical proximity information and reveal significant differences between "thinking" and "non-thinking" model variants.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/DeepMath.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!-- Bibliography section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Bibliography</h2>
+        <div class="content has-text-justified">
+          
+          <h3 class="title is-4">Core Methodology</h3>
+          
+          <h4 class="title is-5">Approximation in Empirical Science</h4>
+          <ul>
+            <li><strong>Generalizing Empirical Adequacy I: Multiplicity and Approximation</strong> – Sebastian Lutz – Proposes a broadened concept of empirical adequacy within constructive empiricism, emphasizing multiplicity and approximation in theoretical–observational relations. <a href="https://link.springer.com/article/10.1007/s11229-014-0440-3" target="_blank" class="tag is-info is-light">Synthese (2014)</a></li>
+            <li><strong>Scientific Hypothesis Generation by Large Language Models: Laboratory Validation in Breast Cancer Treatment</strong> – A. Abdel-Rehim, H. Zenil, O. Orhobor, M. Fisher, R. J. Collins, E. Bourne, G. W. Fearnley, E. Tate, H. X. Smith, L. N. Soldatova, and R. D. King – Demonstrates LLMs generating novel, experimentally validated drug combination hypotheses for breast cancer treatment. <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0674" target="_blank" class="tag is-info is-light">Journal of the Royal Society Interface (2025)</a></li>
+          </ul>
+          
+          <h4 class="title is-5">Psychology Study on Approximation</h4>
+          <ul>
+            <li><strong>Children's Number Line Estimation Strategies</strong> – M. Li, J. Yang, and X. Ye – Explores how children use different number line strategies in bounded and unbounded tasks, showing developmental shifts in reference-point use. <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1421821/full" target="_blank" class="tag is-info is-light">Frontiers in Psychology (2024)</a></li>
+          </ul>
+          
+          <h4 class="title is-5">Linear Probe</h4>
+          <ul>
+            <li><strong>Understanding Intermediate Layers Using Linear Classifier Probes</strong> – G. Alain & Y. Bengio – Introduces 'probe' classifiers to examine feature separability and diagnostic behavior across neural network layers. <a href="https://arxiv.org/abs/1610.01644" target="_blank" class="tag is-info is-light">arXiv (2016)</a></li>
+          </ul>
+          
+          <h4 class="title is-5">Models</h4>
+          <ul>
+            <li><strong>Qwen3 Technical Report</strong> – Qwen Team – Presents the Qwen3 family of LLMs featuring dense and Mixture-of-Expert (MoE) models with integrated "thinking" and "non-thinking" modes. <a href="https://arxiv.org/abs/2505.09388" target="_blank" class="tag is-info is-light">arXiv (2025)</a></li>
+            <li><strong>Dream 7B: Diffusion Large Language Models</strong> – J. Ye, Z. Xie, L. Zheng, J. Gao, Z. Wu, X. Jiang, Z. Li, and L. Kong – Introduces Dream 7B, a diffusion-based LLM with iterative denoising generation, excelling in math, coding, and planning tasks. <a href="https://arxiv.org/abs/2508.15487" target="_blank" class="tag is-info is-light">arXiv (2025)</a></li>
+            <li><strong>Mamba: Linear-Time Sequence Modeling with Selective State Spaces</strong> – A. Gu & T. Dao – Proposes the Mamba architecture, a state-space model that scales linearly and outperforms transformers in long-sequence modeling. <a href="https://arxiv.org/abs/2312.00752" target="_blank" class="tag is-info is-light">arXiv (2023)</a></li>
+          </ul>
+          
+          <h4 class="title is-5">Model's Numerical Encoding Behaviors</h4>
+          <ul>
+            <li><strong>Language Models Encode Numbers Using Digit Representations in Base 10</strong> – A. A. Levy & M. Geva – Reveals that LLMs encode numbers via digit-wise base-10 representations, explaining systematic numeric errors. <a href="https://aclanthology.org/2025.naacl-short.33/" target="_blank" class="tag is-info is-light">ACL Anthology (2025)</a></li>
+            <li><strong>Language Model Probabilities are Not Calibrated in Numeric Contexts</strong> – C. Lovering, M. Krumdick, V. D. Lai, V. Reddy, S. Ebner, N. Kumar, R. Koncel-Kedziorski, and C. Tanner – Examines how LMs fail to calibrate probabilities in numeric contexts, even in simple reasoning tasks. <a href="https://aclanthology.org/2025.acl-long.1417/" target="_blank" class="tag is-info is-light">ACL Anthology (2025)</a></li>
+          </ul>
+          
+          <h4 class="title is-5">Early Stopping Opportunities</h4>
+          <ul>
+            <li><strong>BranchyNet: Fast Inference via Early Exiting from Deep Neural Networks</strong> – S. Teerapittayanon, B. McDanel, and H. T. Kung – Proposes BranchyNet, enabling faster inference by allowing early exits from intermediate layers of neural networks. <a href="https://arxiv.org/abs/1709.01686" target="_blank" class="tag is-info is-light">arXiv (2017)</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End bibliography section -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{decipher_deep_math_2025,
+  title={Decipher Deep Math: Numeric Rounding Behaviors in LLMs},
+  author={Anonymous authors - will reveal laters},
+  journal={DeepMath},
+  year={2025},
+  note={Supplemental material for DeepMath 2025 Abstract}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
